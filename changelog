@@ -1,0 +1,88 @@
+= Version 1.1.4 =
+* Maintenance release
+* Fixed: A bug where users won't be able to submit without email, even if it is disabled from the admin section
+* **Updated**: /classes/install-class.php
+* **Updated**: /classes/admin-class.php
+* **Updated**: /classes/form-class.php
+* **Updated**: /feedback_survey.php
+* **Updated**: /readme.txt
+* **Updated**: /static/admin/css/admin.css
+* **Added**: /static/admin/images/fsqm-banner.jpg
+* **Added**: /static/admin/images/fsqm-preview.jpg
+
+= Version 1.1.3 =
+* Fixed: A bug in the form which was causing it to submit forever (It was a typo in the code)
+* Fixed: Bug on plugin upgrade which won't update the database. (Lack of my knowledge on register_activation_hook)
+* Added: Some default cosmetics for the form text-input
+* **Updated**: /classes/form-class.php
+* **Updated**: /classes/install-class.php
+* **Updated**: /classes/loader.php
+* **Updated**: /feedback_survey.php
+* **Updated**: /readme.txt
+* **Updated**: /static/front/css/form.css
+
+= Version 1.1.2 =
+* Fixed: Ever-loading Trends page on zero database entries
+* Fixed: Readme.txt errors
+* Fixed: Some cosmetics issue on the admin settings page
+* Fixed: Admin dashboard trends bug (causing it not to show up)
+* Added: Working Pro Version Link
+* **Updated**: /classes/admin-class.php
+* **Updated**: /classes/form-class.php
+* **Updated**: /static/admin/css/metabox-tabs.css
+* **Updated**: /classes/install-class.php
+* **Updated**: /readme.txt
+
+= Version 1.1.1 =
+* Fixed: Accidental upload of 1.1.0 (Sorry for it)
+* Removed: Pro Version link as it is not ready
+* **Updated**: /readme.txt
+* **Updated**: /admin-class.php
+* **Updated**: /install-class.php
+* **Updated**: /translation/fbsr-en_US.pot
+* **Updated**: /feedback_survey.php
+
+= Version 1.1.0 =
+* Fixed: Shortcode output coming always on top of content
+* Fixed: Security loophole under the mathematical captcha
+* Fixed: MultiSite uninstallation bugs
+* Added: Now Survey Questions can be made optional or required
+* Added: Now Feedback Questions can be made optional or required
+* Added: 4 predefined personal information are now configurable
+* Added: Can add upto 20 extra personal information questions
+* Added: Can easily rearrange the order of the tabs from Settings
+* **Updated**: /classes/install-class.php
+* **Updated**: /classes/admin-class.php
+* **Updated**: /changelog
+* **Updated**: /static/admin/js/admin.js
+* **Updated**: /feedback_survey.php
+* **Added** : /static/admin/css/jquery-ui-1.8.23.custom.css
+* **Updated**: /static/admin/css/admin.css
+* **Updated**: /static/front/css/form.css
+* **Updated**: /uninstall.php
+
+= Version 1.0.2 =
+* Fixed: Google Chart Page (Trends) problem. Was using json_encode with JSON_FORCE_OBJECT with is available only with PHP 5.3
+* Fixed: Cached Trends issue when deleting feedbacks
+* **Updated**:/classes/form-class.php
+* **Updated**:/classes/admin-class.php
+* **Updated**:/feedback_survey.php
+
+= Version 1.0.1 =
+* Generated the POT file for translation.
+* Fixed some typo in the readme file.
+* Added the WP support link to the admin section.
+* Added error message on [feedback_trend] for no enabled surveys
+* **Added**: /translations/fbsr-en_US.pot
+* **Added**: /changelog
+* **Updated**: /readme.txt
+* **Updated**: /feedback_survey.php
+* **Updated**: /classes/install-class.php
+* **Updated**: /classes/form-class.php
+
+Second Commit:
+    Updated: /translations/fbst-en_US.pot
+    Updated: /readme.txt
+
+= Version 1.0.0 =
+* Public Release
